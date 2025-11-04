@@ -1,0 +1,5 @@
+word = input().strip()
+uppers = sorted([c for c in word if c.isupper()])
+lowers = sorted([c for c in word if c.islower()])
+result = ''.join(uppers + lowers)
+print(result)
