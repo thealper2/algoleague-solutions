@@ -1,0 +1,5 @@
+n = int(input())
+scores = list(map(int, input().split()))
+unique = set(scores)
+mean = sum(unique) / len(unique)
+print(int(mean))
